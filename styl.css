@@ -1,0 +1,86 @@
+/* Umumiy dizayn */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9ecd8;
+}
+
+/* Header qismi */
+header {
+  background-color: #0b74b5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Karta joylashuvi */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Har bir karta */
+.card {
+  background-color: white;
+  border: 2px solid #0073e6;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}
+
+.card h2 {
+  color: #003366;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Tugma dizayni */
+button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer qismi */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 40px;
+}
